@@ -1,0 +1,188 @@
+/* govCMS overrides */
+.header {color:red; background-color:red;}
+
+
+        /* Area Widths */
+    #page {box-shadow: none; max-width:7000px; width:100%;}
+    #content {padding:0 1em; max-width: 1140px; width: 100%;}
+    #main {max-width: 1140px; width: 100%; margin: 0 auto;}
+    .header__region {float:left; margin:0;}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+
+.header__region p {
+    font-size:16px;
+    margin-bottom:15px;
+}
+
+h1 {
+    color:white;
+    font-weight:bold;
+    font-size: 3.5em;
+    line-height:1.5em;
+    margin-top:20px;
+    font-family:Arial;
+}
+
+#content h2 {
+	font-weight:normal;
+	color:#fff;
+	font-size:1em;
+	padding:135px 0 5px 0;
+	margin:0;
+	text-align:center;
+	font-family:Arial;
+}
+a {text-decoration: none;}
+.header {
+	color: white;
+	background: #8a8a8a; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #4b4b4b 0%, #8a8a8a 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#4b4b4b), color-stop(100%,#8a8a8a)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(45deg,  #4b4b4b 0%,#8a8a8a 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(45deg,  #4b4b4b 0%,#8a8a8a 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(45deg,  #4b4b4b 0%,#8a8a8a 100%); /* IE10+ */
+  background: linear-gradient(45deg,  #4b4b4b 0%,#8a8a8a 100%); /* W3C */
+  
+}
+.feature-wrap {
+  background: #25466e;
+  background: -moz-linear-gradient(45deg,  #25466e 0%, #42667f 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#25466e), color-stop(100%,#42667f));
+  background: -webkit-linear-gradient(45deg,  #25466e 0%,#42667f 100%);
+  background: -o-linear-gradient(45deg,  #25466e 0%,#42667f 100%);
+  background: -ms-linear-gradient(45deg,  #25466e 0%,#42667f 100%);
+  background: linear-gradient(45deg,  #25466e 0%,#42667f 100%);
+  border-bottom:1px solid #000;
+  padding-bottom:10px;
+}
+.feature-wrap h2 {
+	color:#fff;
+	font-size:2.2em;
+	margin-top:40px;
+	line-height:1em;
+}
+.feature-wrap h3 {
+	color:#fff;
+	font-size:1.5em;
+	margin-top:10px;
+	line-height:1em;
+}
+.feature-wrap ul{
+	color:#fff;
+}
+.feature-wrap li a{
+	color:#fff;
+	text-decoration:underline;
+}
+.feature-wrap img {
+	margin:10px 0 0 0;
+	max-width:100%;
+}
+img.vec {
+	margin-top:75px;
+}
+.footer-bar {
+	background: #007ac1; /* Old browsers */
+  	background: -moz-linear-gradient(45deg,  #007ac1 0%, #bad2ee 100%); /* FF3.6+ */
+  	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#007ac1), color-stop(100%,#bad2ee)); /* Chrome,Safari4+ */
+  	background: -webkit-linear-gradient(45deg,  #007ac1 0%,#bad2ee 100%); /* Chrome10+,Safari5.1+ */
+  	background: -o-linear-gradient(45deg,  #007ac1 0%,#bad2ee 100%); /* Opera 11.10+ */
+  	background: -ms-linear-gradient(45deg,  #007ac1 0%,#bad2ee 100%); /* IE10+ */
+  	background: linear-gradient(45deg,  #007ac1 0%,#bad2ee 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007ac1', endColorstr='#bad2ee',GradientType=1 ); /* IE6-9 */
+	height: 10px;
+    left: 0;
+    right: 0;
+	margin:15px 0 0;
+	clear:both;
+}
+footer {
+	background: #8a8a8a; /* Old browsers */
+ 	background: -moz-linear-gradient(45deg,  #4b4b4b 0%, #8a8a8a 100%); /* FF3.6+ */
+  	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#4b4b4b), color-stop(100%,#8a8a8a)); /* Chrome,Safari4+ */
+  	background: -webkit-linear-gradient(45deg,  #4b4b4b 0%,#8a8a8a 100%); /* Chrome10+,Safari5.1+ */
+  	background: -o-linear-gradient(45deg,  #4b4b4b 0%,#8a8a8a 100%); /* Opera 11.10+ */
+  	background: -ms-linear-gradient(45deg,  #4b4b4b 0%,#8a8a8a 100%); /* IE10+ */
+  	background: linear-gradient(45deg,  #4b4b4b 0%,#8a8a8a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4b4b', endColorstr='#8a8a8a',GradientType=1 ); /* IE6-9 */
+	text-align: center;
+}
+
+footer p {
+	font-size: 0.95em;
+	color: #ffffff;
+	margin: 5px 0;
+}
+
+/* button styles */
+.aec,.eca,.enrol,.sa,.nsw,.nt,.wa,.act,.qld,.vic,.tas {
+	height:180px;	
+	cursor:pointer;
+	margin-top:15px;
+	margin-right:10px;
+}
+    .aec {background: #fff url(images/aec.jpg) top center no-repeat;}
+    .enrol {background: #fff url(images/enrol.jpg) top center no-repeat;}
+    .eca {background: #fff url(images/eca.png) top center no-repeat;}
+    .sa {background: #fff url(images/ecsa.jpg) top center no-repeat;}
+    .nsw {background: #fff url(images/ecnsw.jpg) top center no-repeat;}
+    .nt {background: #fff url(images/ntec.png) top center no-repeat;}
+    .wa {background: #fff url(images/waec.jpg) top center no-repeat;}
+    .act {background: #fff url(images/eact.jpg) top center no-repeat;}
+    .qld {background: #fff url(images/ecq.jpg) top center no-repeat;}
+    .vic {background: #fff url(images/vec.jpg) top center no-repeat;}
+    .tas {background: #fff url(images/tec.jpg) top center no-repeat;}
+    .aec h2, .enrol h2 {padding-top:140px;}
+
+    .width33 {width:28.3%; margin:10px 2.5%; float:left;}
+    .width25 {width:24%; margin:7.5px 0.5%; float:left;}
+
+
+/*Overridding govcms width constaints */
+@media (min-width: 720px) {
+
+}
+
+/*Tablets */
+@media handheld, only screen and (max-width: 980px) {
+    .width33,
+    .width25 {width:32%; margin:7.5px 0.3%; float:left;}
+}
+
+/* Mobile phones */
+@media handheld, only screen and (max-width: 719px) {
+
+    .width33,
+    .width25 {width:100%; margin:7.5px 0; }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
